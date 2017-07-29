@@ -1,4 +1,4 @@
-*[English](README.md) ∙ [简体中文](README-zh-Hans.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
+*[English](README.md) ∙ [简体中文](README-zh-Hans.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
 # The System Design Primer
 
@@ -877,7 +877,7 @@ Denormalization attempts to improve read performance at the expense of some writ
 
 Once data becomes distributed with techniques such as [federation](#federation) and [sharding](#sharding), managing joins across data centers further increases complexity.  Denormalization might circumvent the need for such complex joins.
 
-In most systems, reads can heavily number writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.
+In most systems, reads can heavily outnumber writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.
 
 ##### Disadvantage(s): denormalization
 
@@ -1061,7 +1061,7 @@ Reasons for **NoSQL**:
 
 * Semi-structured data
 * Dynamic or flexible schema
-* Non relational data
+* Non-relational data
 * No need for complex joins
 * Store many TB (or PB) of data
 * Very data intensive workload
@@ -1742,6 +1742,8 @@ Handy metrics based on numbers above:
 #### Source(s) and further reading
 
 * [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
+
+The list of blogs here will be kept relatively small and [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs) will contain the larger list to avoid duplicating work. Do consider adding your company blog to the engineering-blogs repo instead.
 
 ## Under development
 
